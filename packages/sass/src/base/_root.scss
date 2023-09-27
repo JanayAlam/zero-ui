@@ -1,0 +1,17 @@
+/**
+ *
+ * ! Default CSS Variables
+ *
+ * As scss is not fully compatible with CSS, variables need to be embed.
+ */
+:root {
+  /*=============================================
+  =                    Colors                   =
+  =============================================*/
+
+  // Global Text Colors
+  --zui-body-text-color: #{$dark};
+  --zui-body-bg-color: #{$white};
+
+  /*=====  End of Colors  ======*/
+}

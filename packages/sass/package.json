@@ -1,0 +1,31 @@
+{
+  "name": "@zui/sass",
+  "description": "",
+  "version": "1.0.0",
+  "main": "./src/scripts/build.js",
+  "keywords": [
+    "sass"
+  ],
+  "author": "Md. Janay Alam <janayalam.work@gmail.com>",
+  "scripts": {
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "build": "node",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.68.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
+}
