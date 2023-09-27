@@ -1,0 +1,20 @@
+{
+  "name": "@zui/monorepo",
+  "description": "Monorepo for zero ui design system.",
+  "version": "1.0.0",
+  "repository": "https://github.com/JanayAlam/zero-ui.git",
+  "author": "Md. Janay Alam <janayalam.work@gmail.com>",
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.3.0"
+  }
+}
