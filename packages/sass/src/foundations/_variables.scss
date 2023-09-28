@@ -1,0 +1,65 @@
+/**
+ *
+ * This file contains all defined variables
+ *
+ */
+
+/*=============================================
+=                 Font Family                 =
+=============================================*/
+
+$CenturyGothicsFont: 'Century Gothic', 'Helvetica', 'Arial';
+$InterFont: 'Inter', 'Roboto', sans-serif;
+
+/*=====       End of Font Family       ======*/
+
+/*=============================================
+=                 Font Sizes                  =
+=============================================*/
+
+// Header Font Sizes
+$fs-h: (
+  1: 6rem /* 96px */,
+  2: 3.75rem /* 60px */,
+  3: 3rem /* 48px */,
+  4: 2.125rem /* 34px */,
+  5: 1.5rem /* 24px */,
+  6: 1.25rem /* 20px */,
+);
+
+// Sub Header Font Sizes
+$fs-sh: (
+  1: 1rem /* 16px */,
+  2: 0.875rem /* 14px */,
+);
+
+// Body Font Sizes
+$fs-body: (
+  1: 1rem /* 16px */,
+  2: 1.5rem /* 24px */,
+);
+
+// Button Font Size
+$fs-button: 0.875rem; /* 14px */
+
+// Caption Font Size
+$fs-caption: 0.75rem; /* 12px */
+
+// Overline Font Size
+$fs-overline: 0.625rem; /* 10px */
+
+/*=====       End of Font Sizes        ======*/
+
+/*=============================================
+=                Font Weights                 =
+=============================================*/
+
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/*=====      End of Font Weights       ======*/

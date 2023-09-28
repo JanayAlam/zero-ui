@@ -6,12 +6,36 @@
  */
 :root {
   /*=============================================
-  =                    Colors                   =
+  =                 Font Family                 =
   =============================================*/
 
-  // Global Text Colors
-  --zui-body-text-color: #{$dark};
-  --zui-body-bg-color: #{$white};
+  --zui-header-font-family: #{$CenturyGothicsFont};
+  --zui-body-font-family: #{$InterFont};
 
-  /*=====  End of Colors  ======*/
+  /*=====        End of Font Family       ======*/
+
+  /*=============================================
+  =                 Font Sizes                  =
+  =============================================*/
+
+  --zui-header-1-font-size: #{map-get($fs-h, 1)};
+  --zui-header-2-font-size: #{map-get($fs-h, 2)};
+  --zui-header-3-font-size: #{map-get($fs-h, 3)};
+  --zui-header-4-font-size: #{map-get($fs-h, 4)};
+  --zui-header-5-font-size: #{map-get($fs-h, 5)};
+  --zui-header-6-font-size: #{map-get($fs-h, 6)};
+
+  --zui-subheader-1-font-size: #{map-get($fs-sh, 1)};
+  --zui-subheader-2-font-size: #{map-get($fs-sh, 2)};
+
+  --zui-body-1-font-size: #{map-get($fs-body, 1)};
+  --zui-body-2-font-size: #{map-get($fs-body, 2)};
+
+  --zui-button-font-size: #{$fs-button};
+
+  --zui-caption-font-size: #{$fs-caption};
+
+  --zui-overline-font-size: #{$fs-overline};
+
+  /*=====        End of Font Sizes        ======*/
 }

@@ -1,0 +1,446 @@
+@charset "UTF-8";
+/*=============================================
+|   TABLE OF CONTENTS
+=============================================*/
+/**
+ * 
+ * FOUNDATIONS.................................
+ * BASE........................................
+ * REFERENCE...................................
+ */
+/*=============================================
+=                   Foundations               =
+=============================================*/
+/**
+ *
+ * The function and mixin were taken from
+ *    -> https://github.com/shailesh-ladumor/laravel-livewire-demo/blob/main/resources/css/fonts.scss
+ *
+ * Font Download Links:
+ *    [1] Century Gothic: https://freefontsfamily.com/century-gothic-font-family
+ *    [2] Inter: https://www.dafontfree.io/inter-font-family
+ *
+ * Conversions to web-font:
+ *    [1] Century Gothics: https://www.fontsquirrel.com/tools/webfont-generator
+ *    [2] Inter: https://transfonter.org
+ */
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CenturyGothic/century_gothic-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/century_gothic-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/CenturyGothic/gothicb-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothicb-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/CenturyGothic/gothici-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothici-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/CenturyGothic/gothicbi-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothicbi-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter/Inter-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter/Inter-Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter-MediumItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-MediumItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter/Inter-Bold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Italic.woff2") format("woff2"), url("../fonts/Inter/Inter-Italic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-BoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-BoldItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"), url("../fonts/Inter/Inter-Black.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Semi";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Semi";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBoldItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Extra";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter/Inter-ExtraBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Extra";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-ExtraBoldItalic.woff") format("woff");
+  font-display: swap;
+}
+/**
+ *
+ * This file contains all defined variables
+ *
+ */
+/*=============================================
+=                 Font Family                 =
+=============================================*/
+/*=====       End of Font Family       ======*/
+/*=============================================
+=                 Font Sizes                  =
+=============================================*/
+/* 14px */
+/* 12px */
+/* 10px */
+/*=====       End of Font Sizes        ======*/
+/*=============================================
+=                Font Weights                 =
+=============================================*/
+/*=====      End of Font Weights       ======*/
+/**
+ *
+ * This file contains all classes for typography
+ *
+ */
+/*============================================
+=         Header & Body Font Family          =
+============================================*/
+/*==== End of Header & Body Font Family ====*/
+/*============================================
+=         Header & Body Font Sizes           =
+============================================*/
+/*==== End of Header & Body Font Sizes  ====*/
+/*=====        End of Foundation        ======*/
+/*=============================================
+=                    Base                     =
+=============================================*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background: transparent;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover, a:active {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input[type=search] {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ *
+ * ! Default CSS Variables
+ *
+ * As scss is not fully compatible with CSS, variables need to be embed.
+ */
+:root {
+  /*=============================================
+  =                 Font Family                 =
+  =============================================*/
+  --zui-header-font-family: Century Gothic, Helvetica, Arial;
+  --zui-body-font-family: Inter, Roboto, sans-serif;
+  /*=====        End of Font Family       ======*/
+  /*=============================================
+  =                 Font Sizes                  =
+  =============================================*/
+  --zui-header-1-font-size: 6rem;
+  --zui-header-2-font-size: 3.75rem;
+  --zui-header-3-font-size: 3rem;
+  --zui-header-4-font-size: 2.125rem;
+  --zui-header-5-font-size: 1.5rem;
+  --zui-header-6-font-size: 1.25rem;
+  --zui-subheader-1-font-size: 1rem;
+  --zui-subheader-2-font-size: 0.875rem;
+  --zui-body-1-font-size: 1rem;
+  --zui-body-2-font-size: 1.5rem;
+  --zui-button-font-size: 0.875rem;
+  --zui-caption-font-size: 0.75rem;
+  --zui-overline-font-size: 0.625rem;
+  /*=====        End of Font Sizes        ======*/
+}
+
+/*=====           End of Base          ======*/
+/*=============================================
+=                 References                  =
+=============================================*/
+/*=====        End of References       ======*/

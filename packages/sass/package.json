@@ -10,7 +10,7 @@
   "scripts": {
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "build": "node",
+    "build": "node ./src/scripts/build.js",
     "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "directories": {

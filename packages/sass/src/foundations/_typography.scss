@@ -1,0 +1,49 @@
+/**
+ *
+ * This file contains all classes for typography
+ *
+ */
+
+/*============================================
+=         Header & Body Font Family          =
+============================================*/
+
+$header-font-family: var(
+  --zui-header-font-family,
+  $CenturyGothicsFont
+) !default;
+
+$body-font-family: var(--zui-body-font-family, $InterFont) !default;
+
+/*==== End of Header & Body Font Family ====*/
+
+/*============================================
+=         Header & Body Font Sizes           =
+============================================*/
+
+$header-1-font-size: var(--zui-header-1-font-size, map-get($fs-h, 1)) !default;
+$header-2-font-size: var(--zui-header-2-font-size, map-get($fs-h, 2)) !default;
+$header-3-font-size: var(--zui-header-3-font-size, map-get($fs-h, 3)) !default;
+$header-4-font-size: var(--zui-header-4-font-size, map-get($fs-h, 4)) !default;
+$header-5-font-size: var(--zui-header-5-font-size, map-get($fs-h, 5)) !default;
+$header-6-font-size: var(--zui-header-6-font-size, map-get($fs-h, 6)) !default;
+
+$subheader-1-font-size: var(
+  --zui-subheader-1-font-size,
+  map-get($fs-sh, 1)
+) !default;
+$subheader-2-font-size: var(
+  --zui-subheader-2-font-size,
+  map-get($fs-sh, 2)
+) !default;
+
+$body-1-font-size: var(--zui-body-1-font-size, map-get($fs-body, 1)) !default;
+$body-2-font-size: var(--zui-body-2-font-size, map-get($fs-body, 2)) !default;
+
+$button-font-size: var(--zui-button-font-size, $fs-button) !default;
+
+$caption-font-size: var(--zui-caption-font-size, $fs-caption) !default;
+
+$overline-font-size: var(--zui-overline-font-size, $fs-overline) !default;
+
+/*==== End of Header & Body Font Sizes  ====*/
