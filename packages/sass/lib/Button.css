@@ -1,0 +1,505 @@
+/**
+ *
+ * The function and mixin were taken from
+ *    -> https://github.com/shailesh-ladumor/laravel-livewire-demo/blob/main/resources/css/fonts.scss
+ *
+ * Font Download Links:
+ *    [1] Century Gothic: https://freefontsfamily.com/century-gothic-font-family
+ *    [2] Inter: https://www.dafontfree.io/inter-font-family
+ *
+ * Conversions to web-font:
+ *    [1] Century Gothics: https://www.fontsquirrel.com/tools/webfont-generator
+ *    [2] Inter: https://transfonter.org
+ */
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CenturyGothic/century_gothic-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/century_gothic-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/CenturyGothic/gothicb-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothicb-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/CenturyGothic/gothici-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothici-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/CenturyGothic/gothicbi-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothicbi-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter/Inter-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter/Inter-Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter-MediumItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-MediumItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter/Inter-Bold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Italic.woff2") format("woff2"), url("../fonts/Inter/Inter-Italic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-BoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-BoldItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"), url("../fonts/Inter/Inter-Black.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Semi";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Semi";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBoldItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Extra";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter/Inter-ExtraBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Extra";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-ExtraBoldItalic.woff") format("woff");
+  font-display: swap;
+}
+/**
+ *
+ * This file contains all defined variables
+ *
+ */
+/*=============================================
+=                 Font Family                 =
+=============================================*/
+/*=====       End of Font Family       ======*/
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=============================================
+=                 Font Sizes                  =
+=============================================*/
+/* 12px */
+/* 10px */
+/*=====       End of Font Sizes        ======*/
+/*=============================================
+=                Font Weights                 =
+=============================================*/
+/*=====      End of Font Weights       ======*/
+/*=============================================
+=                 Breakpoints                 =
+=============================================*/
+/*=====       End of Breakpoints       ======*/
+/*=============================================
+=                    Colors                   =
+=============================================*/
+/*===========    End of Colors   ============*/
+/*=============================================
+=                   Shadows                   =
+=============================================*/
+/*=====          End of Shadows        ======*/
+/**
+ *
+ * This file contains all classes for colors
+ *
+ */
+/*=============================================
+=                   Text Colors               =
+=============================================*/
+/*=====        End of Text Colors      ======*/
+/*=============================================
+=                   UI Colors                 =
+=============================================*/
+/*=====         End of UI Colors       ======*/
+/**
+ *
+ * This file contains all classes for typography
+ *
+ */
+/*============================================
+=         Header & Body Font Family          =
+============================================*/
+/*==== End of Header & Body Font Family ====*/
+/*============================================
+=         Header & Body Font Sizes           =
+============================================*/
+/*==== End of Header & Body Font Sizes  ====*/
+/**
+ *
+ * Helpful reuseable function-like things that will be used to implement styles for components.
+ *
+ */
+/*=============================================
+=                   Mixins                    =
+=============================================*/
+/*=====  End of Mixins  ======*/
+.zui-btn {
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-family: var(--zui-body-font-family, "Inter", "Roboto", sans-serif);
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.zui-btn:hover {
+  background-color: var(--zui-light-hover-color, #e4e4e4);
+}
+
+.zui-btn[disabled] {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn[disabled]:hover {
+  background: transparent;
+}
+
+.zui-btn-size-sm {
+  font-size: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.zui-btn-size-md {
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.zui-btn-size-lg {
+  font-size: 1.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.zui-btn-primary-contained {
+  background-color: var(--zui-primary-color, #0468db);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-primary-contained:hover {
+  background-color: var(--zui-primary-hover-color, #004faa);
+}
+.zui-btn-primary-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-primary-contained:disabled:hover {
+  background-color: var(--zui-primary-color, #0468db);
+}
+
+.zui-btn-primary-outlined {
+  border: 1px solid var(--zui-primary-color, #0468db);
+  color: var(--zui-primary-color, #0468db);
+}
+.zui-btn-primary-outlined:hover {
+  background-color: var(--zui-primary-dim-color, #e3f2fd);
+}
+
+.zui-btn-primary-text {
+  color: var(--zui-primary-color, #0468db);
+  background: transparent;
+}
+.zui-btn-primary-text:hover {
+  background-color: var(--zui-primary-dim-color, #e3f2fd);
+}
+
+.zui-btn-secondary-contained {
+  background-color: var(--zui-secondary-color, #e91e63);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-secondary-contained:hover {
+  background-color: var(--zui-secondary-hover-color, #ad1457);
+}
+.zui-btn-secondary-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-secondary-contained:disabled:hover {
+  background-color: var(--zui-secondary-color, #e91e63);
+}
+
+.zui-btn-secondary-outlined {
+  border: 1px solid var(--zui-secondary-color, #e91e63);
+  color: var(--zui-secondary-color, #e91e63);
+}
+.zui-btn-secondary-outlined:hover {
+  background-color: var(--zui-secondary-dim-color, #ec407a);
+}
+
+.zui-btn-secondary-text {
+  color: var(--zui-secondary-color, #e91e63);
+  background: transparent;
+}
+.zui-btn-secondary-text:hover {
+  background-color: var(--zui-secondary-dim-color, #ec407a);
+}
+
+.zui-btn-success-contained {
+  background-color: var(--zui-success-color, #34db60);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-success-contained:hover {
+  background-color: var(--zui-success-hover-color, #09a811);
+}
+.zui-btn-success-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-success-contained:disabled:hover {
+  background-color: var(--zui-success-color, #34db60);
+}
+
+.zui-btn-success-outlined {
+  border: 1px solid var(--zui-success-color, #34db60);
+  color: var(--zui-success-color, #34db60);
+}
+.zui-btn-success-outlined:hover {
+  background-color: var(--zui-success-dim-color, #ddf5e3);
+}
+
+.zui-btn-success-text {
+  color: var(--zui-success-color, #34db60);
+  background: transparent;
+}
+.zui-btn-success-text:hover {
+  background-color: var(--zui-success-dim-color, #ddf5e3);
+}
+
+.zui-btn-error-contained {
+  background-color: var(--zui-error-color, #d32f2f);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-error-contained:hover {
+  background-color: var(--zui-error-hover-color, #b71c1c);
+}
+.zui-btn-error-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-error-contained:disabled:hover {
+  background-color: var(--zui-error-color, #d32f2f);
+}
+
+.zui-btn-error-outlined {
+  border: 1px solid var(--zui-error-color, #d32f2f);
+  color: var(--zui-error-color, #d32f2f);
+}
+.zui-btn-error-outlined:hover {
+  background-color: var(--zui-error-dim-color, #e94442);
+}
+
+.zui-btn-error-text {
+  color: var(--zui-error-color, #d32f2f);
+  background: transparent;
+}
+.zui-btn-error-text:hover {
+  background-color: var(--zui-error-dim-color, #e94442);
+}
+
+.zui-btn-info-contained {
+  background-color: var(--zui-info-color, #b1e2f4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-info-contained:hover {
+  background-color: var(--zui-info-hover-color, #8bd7f5);
+}
+.zui-btn-info-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-info-contained:disabled:hover {
+  background-color: var(--zui-info-color, #b1e2f4);
+}
+
+.zui-btn-info-outlined {
+  border: 1px solid var(--zui-info-color, #b1e2f4);
+  color: var(--zui-dark-text-color, #000000);
+}
+.zui-btn-info-outlined:hover {
+  background-color: var(--zui-info-dim-color, #c4e7f4);
+}
+
+.zui-btn-info-text {
+  color: var(--zui-info-color, #b1e2f4);
+  background: transparent;
+}
+.zui-btn-info-text:hover {
+  background-color: var(--zui-info-dim-color, #c4e7f4);
+}
+
+.zui-btn-warning-contained {
+  background-color: var(--zui-warning-color, #ffa726);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-warning-contained:hover {
+  background-color: var(--zui-warning-hover-color, #f57c00);
+}
+.zui-btn-warning-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-warning-contained:disabled:hover {
+  background-color: var(--zui-warning-color, #ffa726);
+}
+
+.zui-btn-warning-outlined {
+  border: 1px solid var(--zui-warning-color, #ffa726);
+  color: var(--zui-warning-color, #ffa726);
+}
+.zui-btn-warning-outlined:hover {
+  background-color: var(--zui-warning-dim-color, #ffb74d);
+}
+
+.zui-btn-warning-text {
+  color: var(--zui-warning-color, #ffa726);
+  background: transparent;
+}
+.zui-btn-warning-text:hover {
+  background-color: var(--zui-warning-dim-color, #ffb74d);
+}
+
+.zui-btn-dark-contained {
+  background-color: var(--zui-dark-color, #212121);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-dark-contained:hover {
+  background-color: var(--zui-dark-hover-color, #000000);
+}
+.zui-btn-dark-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-dark-contained:disabled:hover {
+  background-color: var(--zui-dark-color, #212121);
+}
+
+.zui-btn-dark-outlined {
+  border: 1px solid var(--zui-dark-color, #212121);
+  color: var(--zui-dark-color, #212121);
+}
+.zui-btn-dark-outlined:hover {
+  background-color: var(--zui-dark-dim-color, #212121);
+}
+
+.zui-btn-dark-text {
+  color: var(--zui-dark-color, #212121);
+  background: transparent;
+}
+.zui-btn-dark-text:hover {
+  background-color: var(--zui-dark-dim-color, #212121);
+}
+
+.zui-btn-light-contained {
+  background-color: var(--zui-light-color, #f0f0f0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.zui-btn-light-contained:hover {
+  background-color: var(--zui-light-hover-color, #e4e4e4);
+}
+.zui-btn-light-contained:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.zui-btn-light-contained:disabled:hover {
+  background-color: var(--zui-light-color, #f0f0f0);
+}
+
+.zui-btn-light-outlined {
+  border: 1px solid var(--zui-light-color, #f0f0f0);
+  color: var(--zui-dark-text-color, #000000);
+}
+.zui-btn-light-outlined:hover {
+  background-color: var(--zui-light-dim-color, #e4e4e4);
+}
+
+.zui-btn-light-text {
+  color: var(--zui-dark-text-color, #000000);
+  background: transparent;
+}
+.zui-btn-light-text:hover {
+  background-color: var(--zui-light-dim-color, #e4e4e4);
+}
+
+.zui-btn-pill {
+  border-radius: 50px;
+}
+
+.zui-btn-primary-contained,
+.zui-btn-secondary-contained,
+.zui-btn-success-contained,
+.zui-btn-error-contained,
+.zui-btn-dark-contained,
+.zui-btn-secondary-outlined:hover,
+.zui-btn-error-outlined:hover,
+.zui-btn-dark-outlined:hover,
+.zui-btn-secondary-text:hover,
+.zui-btn-dark-text:hover,
+.zui-btn-error-text:hover {
+  color: var(--zui-light-text-color, #ffffff);
+}
+
+.zui-btn-info-contained,
+.zui-btn-warning-contained,
+.zui-btn-light-contained,
+.zui-btn-info-outlined:hover,
+.zui-btn-warning-outlined:hover,
+.zui-btn-light-outlined:hover,
+.zui-btn-info-text:hover,
+.zui-btn-light-text:hover,
+.zui-btn-warning-text:hover {
+  color: var(--zui-dark-text-color, #000000);
+}

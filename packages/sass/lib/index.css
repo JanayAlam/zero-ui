@@ -139,9 +139,12 @@
 =============================================*/
 /*=====       End of Font Family       ======*/
 /*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=============================================
 =                 Font Sizes                  =
 =============================================*/
-/* 14px */
 /* 12px */
 /* 10px */
 /*=====       End of Font Sizes        ======*/
@@ -149,6 +152,31 @@
 =                Font Weights                 =
 =============================================*/
 /*=====      End of Font Weights       ======*/
+/*=============================================
+=                 Breakpoints                 =
+=============================================*/
+/*=====       End of Breakpoints       ======*/
+/*=============================================
+=                    Colors                   =
+=============================================*/
+/*===========    End of Colors   ============*/
+/*=============================================
+=                   Shadows                   =
+=============================================*/
+/*=====          End of Shadows        ======*/
+/**
+ *
+ * This file contains all classes for colors
+ *
+ */
+/*=============================================
+=                   Text Colors               =
+=============================================*/
+/*=====        End of Text Colors      ======*/
+/*=============================================
+=                   UI Colors                 =
+=============================================*/
+/*=====         End of UI Colors       ======*/
 /**
  *
  * This file contains all classes for typography
@@ -162,6 +190,15 @@
 =         Header & Body Font Sizes           =
 ============================================*/
 /*==== End of Header & Body Font Sizes  ====*/
+/**
+ *
+ * Helpful reuseable function-like things that will be used to implement styles for components.
+ *
+ */
+/*=============================================
+=                   Mixins                    =
+=============================================*/
+/*=====  End of Mixins  ======*/
 /*=====        End of Foundation        ======*/
 /*=============================================
 =                    Base                     =
@@ -433,10 +470,39 @@ input[type=checkbox], input[type=radio] {
   --zui-subheader-2-font-size: 0.875rem;
   --zui-body-1-font-size: 1rem;
   --zui-body-2-font-size: 1.5rem;
-  --zui-button-font-size: 0.875rem;
   --zui-caption-font-size: 0.75rem;
   --zui-overline-font-size: 0.625rem;
-  /*=====        End of Font Sizes        ======*/
+  /*=====        End of Font Sizes       ======*/
+  /*=============================================
+  =                    Colors                   =
+  =============================================*/
+  --zui-dark-text-color: #000000;
+  --zui-light-text-color: #ffffff;
+  --zui-primary-color: #0468db;
+  --zui-secondary-color: #e91e63;
+  --zui-success-color: #34db60;
+  --zui-error-color: #b71c1c;
+  --zui-info-color: #b1e2f4;
+  --zui-warning-color: #ffa726;
+  --zui-dark-color: #212121;
+  --zui-light-color: #f0f0f0;
+  --zui-primary-dim-color: #e3f2fd;
+  --zui-secondary-dim-color: #ec407a;
+  --zui-success-dim-color: #ddf5e3;
+  --zui-error-dim-color: #e94442;
+  --zui-info-dim-color: #c4e7f4;
+  --zui-warning-dim-color: #ffb74d;
+  --zui-dark-dim-color: #212121;
+  --zui-light-dim-color: #e4e4e4;
+  --zui-primary-hover-color: #004faa;
+  --zui-secondary-hover-color: #ad1457;
+  --zui-success-hover-color: #09a811;
+  --zui-error-hover-color: #d32f2f;
+  --zui-info-hover-color: #8bd7f5;
+  --zui-warning-hover-color: #f57c00;
+  --zui-dark-hover-color: #000000;
+  --zui-light-hover-color: #e4e4e4;
+  /*=====          End of Colors          ======*/
 }
 
 /*=====           End of Base          ======*/

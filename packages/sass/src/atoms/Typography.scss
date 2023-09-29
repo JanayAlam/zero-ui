@@ -1,96 +1,97 @@
 @import '../foundations/all';
 
-.header-1,
-.header-2,
-.header-3,
-.header-4,
-.header-5,
-.header-6,
-.subheader-1,
-.subheader-2,
-.caption,
-.body-1,
-.body-2,
-.overline {
+.zui-header-1,
+.zui-header-2,
+.zui-header-3,
+.zui-header-4,
+.zui-header-5,
+.zui-header-6,
+.zui-subheader-1,
+.zui-subheader-2,
+.zui-caption,
+.zui-body-1,
+.zui-body-2,
+.zui-overline {
   display: block;
   font-weight: $fw-medium;
-  letter-spacing: 0;
+  letter-spacing: map-get($spacing, none);
   margin: 0;
   margin-bottom: 0.5rem;
+  color: $dark-text-color;
 }
 
-.header-1,
-.header-2,
-.header-3,
-.header-4,
-.header-5,
-.header-6,
-.subheader-1,
-.subheader-2,
-.caption {
+.zui-header-1,
+.zui-header-2,
+.zui-header-3,
+.zui-header-4,
+.zui-header-5,
+.zui-header-6,
+.zui-subheader-1,
+.zui-subheader-2,
+.zui-caption {
   font-family: $header-font-family;
 }
 
-.body-1,
-.body-2,
-.overline {
+.zui-body-1,
+.zui-body-2,
+.zui-overline {
   font-family: $body-font-family;
 }
 
-.header-1 {
+.zui-header-1 {
   font-size: $header-1-font-size;
   letter-spacing: -1.5px;
 }
 
-.header-2 {
+.zui-header-2 {
   font-size: $header-2-font-size;
   letter-spacing: -0.5px;
 }
 
-.header-3 {
+.zui-header-3 {
   font-size: $header-3-font-size;
 }
 
-.header-4 {
+.zui-header-4 {
   font-size: $header-4-font-size;
 }
 
-.header-5 {
+.zui-header-5 {
   font-size: $header-5-font-size;
   letter-spacing: 0.18px;
 }
 
-.header-6 {
+.zui-header-6 {
   font-size: $header-6-font-size;
   letter-spacing: 0.15px;
 }
 
-.subheader-1 {
+.zui-subheader-1 {
   font-size: $subheader-1-font-size;
   letter-spacing: 0.15px;
 }
 
-.subheader-2 {
+.zui-subheader-2 {
   font-size: $subheader-2-font-size;
   letter-spacing: 0.1px;
 }
 
-.body-1 {
+.zui-body-1 {
   font-size: $body-1-font-size;
   letter-spacing: 0.5px;
 }
 
-.body-2 {
+.zui-body-2 {
   font-size: $body-2-font-size;
   letter-spacing: 0.25px;
 }
 
-.caption {
+.zui-caption {
   font-size: $caption-font-size;
   letter-spacing: 0.4px;
 }
 
-.overline {
+.zui-overline {
   font-size: $overline-font-size;
   letter-spacing: 1.5px;
 }

@@ -1,0 +1,55 @@
+/**
+ *
+ * Helpful reuseable function-like things that will be used to implement styles for components.
+ *
+ */
+
+/*=============================================
+=                   Mixins                    =
+=============================================*/
+
+@mixin tablet {
+  @media (min-width: map-get($breakpoints, 'md')) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: map-get($breakpoints, 'lg')) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: map-get($breakpoints, 'xl')) {
+    @content;
+  }
+}
+
+@mixin padding($space) {
+  padding: map-get($spacing, $space);
+}
+
+@mixin margin($space) {
+  margin: map-get($spacing, $space);
+}
+
+@mixin shadow($key) {
+  box-shadow: map-get($shadows, $key);
+}
+
+@mixin button-shadow() {
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+@mixin text-color-of-outlined-button($variation, $color) {
+  @if $variation == 'info' or $variation == 'light' {
+    color: $dark-text-color;
+  } @else {
+    color: $color;
+  }
+}
+
+/*=====  End of Mixins  ======*/

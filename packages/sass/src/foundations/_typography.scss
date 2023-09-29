@@ -40,8 +40,6 @@ $subheader-2-font-size: var(
 $body-1-font-size: var(--zui-body-1-font-size, map-get($fs-body, 1)) !default;
 $body-2-font-size: var(--zui-body-2-font-size, map-get($fs-body, 2)) !default;
 
-$button-font-size: var(--zui-button-font-size, $fs-button) !default;
-
 $caption-font-size: var(--zui-caption-font-size, $fs-caption) !default;
 
 $overline-font-size: var(--zui-overline-font-size, $fs-overline) !default;

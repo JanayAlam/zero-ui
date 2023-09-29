@@ -1,0 +1,143 @@
+@import '../foundations/all';
+
+.zui-btn {
+  background-color: transparent;
+  padding: map-get($spacing, xxs) map-get($spacing, md);
+  font-size: map-get($fs-button, md);
+  font-family: $body-font-family;
+  border: map-get($spacing, none);
+  border-radius: map-get($spacing, xxxs);
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: $light-hover-color;
+  }
+}
+
+.zui-btn[disabled] {
+  opacity: 0.4;
+  cursor: default;
+
+  &:hover {
+    background: transparent;
+  }
+}
+
+@each $size, $value in $fs-button {
+  .zui-btn-size-#{$size} {
+    font-size: $value;
+    padding-left: map-get($spacing, $size);
+    padding-right: map-get($spacing, $size);
+  }
+}
+
+$main-button-colors: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  success: $success-color,
+  error: $error-color,
+  info: $info-color,
+  warning: $warning-color,
+  dark: $dark-color,
+  light: $light-color,
+);
+
+$secondary-button-colors: (
+  primary: $primary-dim-color,
+  secondary: $secondary-dim-color,
+  success: $success-dim-color,
+  error: $error-dim-color,
+  info: $info-dim-color,
+  warning: $warning-dim-color,
+  dark: $dark-dim-color,
+  light: $light-dim-color,
+);
+
+$main-button-colors-hover: (
+  primary: $primary-hover-color,
+  secondary: $secondary-hover-color,
+  success: $success-hover-color,
+  error: $error-hover-color,
+  info: $info-hover-color,
+  warning: $warning-hover-color,
+  dark: $dark-hover-color,
+  light: $light-hover-color,
+);
+
+$variations: primary secondary success error info warning dark light;
+
+@each $variation in $variations {
+  .zui-btn-#{$variation}-contained {
+    background-color: map-get($main-button-colors, $variation);
+    @include button-shadow();
+
+    &:hover {
+      background-color: map-get($main-button-colors-hover, $variation);
+    }
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: default;
+
+      &:hover {
+        background-color: map-get($main-button-colors, $variation);
+      }
+    }
+  }
+
+  .zui-btn-#{$variation}-outlined {
+    border: 1px solid map-get($main-button-colors, $variation);
+    @include text-color-of-outlined-button(
+      $variation,
+      map-get($main-button-colors, $variation)
+    );
+
+    &:hover {
+      background-color: map-get($secondary-button-colors, $variation);
+    }
+  }
+
+  .zui-btn-#{$variation}-text {
+    @if $variation == 'light' {
+      color: $dark-text-color;
+    } @else {
+      color: map-get($main-button-colors, $variation);
+    }
+    background: transparent;
+
+    &:hover {
+      background-color: map-get($secondary-button-colors, $variation);
+    }
+  }
+}
+
+.zui-btn-pill {
+  border-radius: 50px;
+}
+
+.zui-btn-primary-contained,
+.zui-btn-secondary-contained,
+.zui-btn-success-contained,
+.zui-btn-error-contained,
+.zui-btn-dark-contained,
+.zui-btn-secondary-outlined:hover,
+.zui-btn-error-outlined:hover,
+.zui-btn-dark-outlined:hover,
+.zui-btn-secondary-text:hover,
+.zui-btn-dark-text:hover,
+.zui-btn-error-text:hover {
+  color: $light-text-color;
+}
+
+.zui-btn-info-contained,
+.zui-btn-warning-contained,
+.zui-btn-light-contained,
+.zui-btn-info-outlined:hover,
+.zui-btn-warning-outlined:hover,
+.zui-btn-light-outlined:hover,
+.zui-btn-info-text:hover,
+.zui-btn-light-text:hover,
+.zui-btn-warning-text:hover {
+  color: $dark-text-color;
+}

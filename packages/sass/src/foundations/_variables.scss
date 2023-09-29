@@ -14,6 +14,25 @@ $InterFont: 'Inter', 'Roboto', sans-serif;
 /*=====       End of Font Family       ======*/
 
 /*=============================================
+=                   Spacing                   =
+=============================================*/
+
+$spacing: (
+  none: 0,
+  xxxs: 0.25rem /* 4px */,
+  xxs: 0.5rem /* 8px */,
+  xs: 0.75rem /* 12px */,
+  sm: 1rem /* 16px */,
+  md: 1.5rem /* 24px */,
+  lg: 2rem /* 32px */,
+  xl: 3rem /* 48px */,
+  xxl: 4.5rem /* 72px */,
+  xxxl: 6rem /* 96px */,
+) !default;
+
+/*=====         End of Spacing        ======*/
+
+/*=============================================
 =                 Font Sizes                  =
 =============================================*/
 
@@ -40,7 +59,11 @@ $fs-body: (
 );
 
 // Button Font Size
-$fs-button: 0.875rem; /* 14px */
+$fs-button: (
+  sm: 0.75rem /* 12px */,
+  md: 1rem /* 16px */,
+  lg: 1.25rem /* 20px */,
+);
 
 // Caption Font Size
 $fs-caption: 0.75rem; /* 12px */
@@ -63,3 +86,63 @@ $fw-extrabold: 800;
 $fw-black: 900;
 
 /*=====      End of Font Weights       ======*/
+
+/*=============================================
+=                 Breakpoints                 =
+=============================================*/
+
+$breakpoints: (
+  md: 60rem /* 960px */,
+  lg: 80rem /* 1280px */,
+  xl: 120rem /* 1920px */,
+);
+
+/*=====       End of Breakpoints       ======*/
+
+/*=============================================
+=                    Colors                   =
+=============================================*/
+
+$blue-dark: #004faa;
+$blue-main: #0468db;
+$blue-light: #e3f2fd;
+
+$sky-blue-dark: #8bd7f5;
+$sky-blue-main: #b1e2f4;
+$sky-blue-light: #c4e7f4;
+
+$red-dark: #b71c1c;
+$red-main: #d32f2f;
+$red-light: #e94442;
+
+$pink-dark: #ad1457;
+$pink-main: #e91e63;
+$pink-light: #ec407a;
+
+$green-dark: #09a811;
+$green-main: #34db60;
+$green-light: #ddf5e3;
+
+$orange-dark: #f57c00;
+$orange-main: #ffa726;
+$orange-light: #ffb74d;
+
+$black-dark: #000000;
+$black-main: #212121;
+$black-light: #dadada;
+
+$white-dark: #e4e4e4;
+$white-main: #f0f0f0;
+$white-light: #ffffff;
+
+/*===========    End of Colors   ============*/
+
+/*=============================================
+=                   Shadows                   =
+=============================================*/
+
+$shadows: (
+  base: 0 4px 11px rgba(157, 157, 157, 0.2),
+);
+
+/*=====          End of Shadows        ======*/

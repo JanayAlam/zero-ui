@@ -31,11 +31,45 @@
   --zui-body-1-font-size: #{map-get($fs-body, 1)};
   --zui-body-2-font-size: #{map-get($fs-body, 2)};
 
-  --zui-button-font-size: #{$fs-button};
-
   --zui-caption-font-size: #{$fs-caption};
 
   --zui-overline-font-size: #{$fs-overline};
 
-  /*=====        End of Font Sizes        ======*/
+  /*=====        End of Font Sizes       ======*/
+
+  /*=============================================
+  =                    Colors                   =
+  =============================================*/
+
+  --zui-dark-text-color: #{$black-dark};
+  --zui-light-text-color: #{$white-light};
+
+  --zui-primary-color: #{$blue-main};
+  --zui-secondary-color: #{$pink-main};
+  --zui-success-color: #{$green-main};
+  --zui-error-color: #{$red-dark};
+  --zui-info-color: #{$sky-blue-main};
+  --zui-warning-color: #{$orange-main};
+  --zui-dark-color: #{$black-main};
+  --zui-light-color: #{$white-main};
+
+  --zui-primary-dim-color: #{$blue-light};
+  --zui-secondary-dim-color: #{$pink-light};
+  --zui-success-dim-color: #{$green-light};
+  --zui-error-dim-color: #{$red-light};
+  --zui-info-dim-color: #{$sky-blue-light};
+  --zui-warning-dim-color: #{$orange-light};
+  --zui-dark-dim-color: #{$black-main};
+  --zui-light-dim-color: #{$white-dark};
+
+  --zui-primary-hover-color: #{$blue-dark};
+  --zui-secondary-hover-color: #{$pink-dark};
+  --zui-success-hover-color: #{$green-dark};
+  --zui-error-hover-color: #{$red-main};
+  --zui-info-hover-color: #{$sky-blue-dark};
+  --zui-warning-hover-color: #{$orange-dark};
+  --zui-dark-hover-color: #{$black-dark};
+  --zui-light-hover-color: #{$white-dark};
+
+  /*=====          End of Colors          ======*/
 }

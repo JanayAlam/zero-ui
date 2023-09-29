@@ -1,0 +1,47 @@
+/**
+ *
+ * This file contains all classes for colors
+ *
+ */
+
+/*=============================================
+=                   Text Colors               =
+=============================================*/
+
+$dark-text-color: var(--zui-dark-text-color, $black-dark) !default;
+$light-text-color: var(--zui-light-text-color, $white-light) !default;
+
+/*=====        End of Text Colors      ======*/
+
+/*=============================================
+=                   UI Colors                 =
+=============================================*/
+
+$primary-color: var(--zui-primary-color, $blue-main) !default;
+$secondary-color: var(--zui-secondary-color, $pink-main) !default;
+$success-color: var(--zui-success-color, $green-main) !default;
+$error-color: var(--zui-error-color, $red-main) !default;
+$info-color: var(--zui-info-color, $sky-blue-main) !default;
+$warning-color: var(--zui-warning-color, $orange-main) !default;
+$dark-color: var(--zui-dark-color, $black-main) !default;
+$light-color: var(--zui-light-color, $white-main) !default;
+
+$primary-dim-color: var(--zui-primary-dim-color, $blue-light) !default;
+$secondary-dim-color: var(--zui-secondary-dim-color, $pink-light) !default;
+$success-dim-color: var(--zui-success-dim-color, $green-light) !default;
+$error-dim-color: var(--zui-error-dim-color, $red-light) !default;
+$info-dim-color: var(--zui-info-dim-color, $sky-blue-light) !default;
+$warning-dim-color: var(--zui-warning-dim-color, $orange-light) !default;
+$dark-dim-color: var(--zui-dark-dim-color, $black-main) !default;
+$light-dim-color: var(--zui-light-dim-color, $white-dark) !default;
+
+$primary-hover-color: var(--zui-primary-hover-color, $blue-dark) !default;
+$secondary-hover-color: var(--zui-secondary-hover-color, $pink-dark) !default;
+$success-hover-color: var(--zui-success-hover-color, $green-dark) !default;
+$error-hover-color: var(--zui-error-hover-color, $red-dark) !default;
+$info-hover-color: var(--zui-info-hover-color, $sky-blue-dark) !default;
+$warning-hover-color: var(--zui-warning-hover-color, $orange-dark) !default;
+$dark-hover-color: var(--zui-dark-hover-color, $black-dark) !default;
+$light-hover-color: var(--zui-light-hover-color, $white-dark) !default;
+
+/*=====         End of UI Colors       ======*/

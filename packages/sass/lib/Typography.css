@@ -126,9 +126,12 @@
 =============================================*/
 /*=====       End of Font Family       ======*/
 /*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=============================================
 =                 Font Sizes                  =
 =============================================*/
-/* 14px */
 /* 12px */
 /* 10px */
 /*=====       End of Font Sizes        ======*/
@@ -136,6 +139,31 @@
 =                Font Weights                 =
 =============================================*/
 /*=====      End of Font Weights       ======*/
+/*=============================================
+=                 Breakpoints                 =
+=============================================*/
+/*=====       End of Breakpoints       ======*/
+/*=============================================
+=                    Colors                   =
+=============================================*/
+/*===========    End of Colors   ============*/
+/*=============================================
+=                   Shadows                   =
+=============================================*/
+/*=====          End of Shadows        ======*/
+/**
+ *
+ * This file contains all classes for colors
+ *
+ */
+/*=============================================
+=                   Text Colors               =
+=============================================*/
+/*=====        End of Text Colors      ======*/
+/*=============================================
+=                   UI Colors                 =
+=============================================*/
+/*=====         End of UI Colors       ======*/
 /**
  *
  * This file contains all classes for typography
@@ -149,97 +177,107 @@
 =         Header & Body Font Sizes           =
 ============================================*/
 /*==== End of Header & Body Font Sizes  ====*/
-.header-1,
-.header-2,
-.header-3,
-.header-4,
-.header-5,
-.header-6,
-.subheader-1,
-.subheader-2,
-.caption,
-.body-1,
-.body-2,
-.overline {
+/**
+ *
+ * Helpful reuseable function-like things that will be used to implement styles for components.
+ *
+ */
+/*=============================================
+=                   Mixins                    =
+=============================================*/
+/*=====  End of Mixins  ======*/
+.zui-header-1,
+.zui-header-2,
+.zui-header-3,
+.zui-header-4,
+.zui-header-5,
+.zui-header-6,
+.zui-subheader-1,
+.zui-subheader-2,
+.zui-caption,
+.zui-body-1,
+.zui-body-2,
+.zui-overline {
   display: block;
   font-weight: 500;
   letter-spacing: 0;
   margin: 0;
   margin-bottom: 0.5rem;
+  color: var(--zui-dark-text-color, #000000);
 }
 
-.header-1,
-.header-2,
-.header-3,
-.header-4,
-.header-5,
-.header-6,
-.subheader-1,
-.subheader-2,
-.caption {
+.zui-header-1,
+.zui-header-2,
+.zui-header-3,
+.zui-header-4,
+.zui-header-5,
+.zui-header-6,
+.zui-subheader-1,
+.zui-subheader-2,
+.zui-caption {
   font-family: var(--zui-header-font-family, "Century Gothic", "Helvetica", "Arial");
 }
 
-.body-1,
-.body-2,
-.overline {
+.zui-body-1,
+.zui-body-2,
+.zui-overline {
   font-family: var(--zui-body-font-family, "Inter", "Roboto", sans-serif);
 }
 
-.header-1 {
+.zui-header-1 {
   font-size: var(--zui-header-1-font-size, 6rem);
   letter-spacing: -1.5px;
 }
 
-.header-2 {
+.zui-header-2 {
   font-size: var(--zui-header-2-font-size, 3.75rem);
   letter-spacing: -0.5px;
 }
 
-.header-3 {
+.zui-header-3 {
   font-size: var(--zui-header-3-font-size, 3rem);
 }
 
-.header-4 {
+.zui-header-4 {
   font-size: var(--zui-header-4-font-size, 2.125rem);
 }
 
-.header-5 {
+.zui-header-5 {
   font-size: var(--zui-header-5-font-size, 1.5rem);
   letter-spacing: 0.18px;
 }
 
-.header-6 {
+.zui-header-6 {
   font-size: var(--zui-header-6-font-size, 1.25rem);
   letter-spacing: 0.15px;
 }
 
-.subheader-1 {
+.zui-subheader-1 {
   font-size: var(--zui-subheader-1-font-size, 1rem);
   letter-spacing: 0.15px;
 }
 
-.subheader-2 {
+.zui-subheader-2 {
   font-size: var(--zui-subheader-2-font-size, 0.875rem);
   letter-spacing: 0.1px;
 }
 
-.body-1 {
+.zui-body-1 {
   font-size: var(--zui-body-1-font-size, 1rem);
   letter-spacing: 0.5px;
 }
 
-.body-2 {
+.zui-body-2 {
   font-size: var(--zui-body-2-font-size, 1.5rem);
   letter-spacing: 0.25px;
 }
 
-.caption {
+.zui-caption {
   font-size: var(--zui-caption-font-size, 0.75rem);
   letter-spacing: 0.4px;
 }
 
-.overline {
+.zui-overline {
   font-size: var(--zui-overline-font-size, 0.625rem);
   letter-spacing: 1.5px;
 }

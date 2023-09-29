@@ -4,32 +4,314 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Framework Test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./lib/Typography.css" />
+    <link rel="stylesheet" href="./lib/Button.css" />
     <style>
       .header {
         font-size: 40px;
         border-bottom: 1px solid black;
+        margin-bottom: 15px;
+      }
+
+      .second-header {
+        font-size: 28px;
+        border-bottom: 1px solid black;
+        margin-bottom: 15px;
       }
     </style>
   </head>
   <body style="width: 65%; margin: 25px auto">
     <div>
       <div class="header"># Typography</div>
-      <h1 class="header-1">Header 1 - 6rem - 96px</h1>
-      <h2 class="header-2">Header 2 - 3.75rem - 60px</h2>
-      <h3 class="header-3">Header 3 - 3rem - 48px</h3>
-      <h4 class="header-4">Header 4 - 2.125rem - 34px</h4>
-      <h5 class="header-5">Header 5 - 1.5rem - 24px</h5>
-      <h6 class="header-6">Header 6 - 1.25rem - 20px</h6>
+      <h1 class="zui-header-1">Header 1 - 6rem - 96px</h1>
+      <h2 class="zui-header-2">Header 2 - 3.75rem - 60px</h2>
+      <h3 class="zui-header-3">Header 3 - 3rem - 48px</h3>
+      <h4 class="zui-header-4">Header 4 - 2.125rem - 34px</h4>
+      <h5 class="zui-header-5">Header 5 - 1.5rem - 24px</h5>
+      <h6 class="zui-header-6">Header 6 - 1.25rem - 20px</h6>
       <br />
-      <div class="subheader-1">This is a subheader - 1rem - 16px</div>
-      <div class="subheader-2">This is also a subheader - 0.875rem - 14px</div>
+      <div class="zui-subheader-1">This is a subheader - 1rem - 16px</div>
+      <div class="zui-subheader-2">
+        This is also a subheader - 0.875rem - 14px
+      </div>
       <br />
-      <p class="body-1">This is a body paragraph text - 1rem - 16px</p>
-      <p class="body-2">This is also a body paragraph text - 1.5rem - 24px</p>
+      <p class="zui-body-1">This is a body paragraph text - 1rem - 16px</p>
+      <p class="zui-body-2">
+        This is also a body paragraph text - 1.5rem - 24px
+      </p>
       <br />
-      <p class="caption">This is a caption - 0.75rem - 12px.</p>
-      <p class="overline">This is a overline text sample - 0.625rem - 10px</p>
+      <p class="zui-caption">This is a caption - 0.75rem - 12px.</p>
+      <p class="zui-overline">
+        This is a overline text sample - 0.625rem - 10px
+      </p>
     </div>
+
+    <div>
+      <div class="header"># Button</div>
+
+      <table class="table table-bordered" style="text-align: center">
+        <thead>
+          <tr class="fw-bold">
+            <td scope="col" rowspan="2">Color</td>
+            <td scope="col" rowspan="2">Status</td>
+            <td scope="col" rowspan="2">Type</td>
+            <td scope="col" colspan="3">Variant</td>
+          </tr>
+          <tr class="fw-bold">
+            <td scope="col">Contained</td>
+            <td scope="col">Outlined</td>
+            <td scope="col">Text</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row" rowspan="4" class="align-middle">Primary</td>
+            <td rowspan="2" class="align-middle">Enabled</td>
+            <td class="align-middle">Default Button</td>
+            <td>
+              <button class="zui-btn zui-btn-primary-contained zui-btn-size-md">
+                Button
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-primary-outlined zui-btn-size-md">
+                Button
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-primary-text zui-btn-size-md">
+                Button
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Pill Button</td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-contained zui-btn-size-md zui-btn-pill"
+              >
+                Button
+              </button>
+            </td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-outlined zui-btn-size-md zui-btn-pill"
+              >
+                Button
+              </button>
+            </td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-text zui-btn-size-md zui-btn-pill"
+              >
+                Button
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="align-middle">Disabled</td>
+            <td class="align-middle">Default Button</td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-contained zui-btn-size-md"
+                disabled
+              >
+                Button
+              </button>
+            </td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-outlined zui-btn-size-md"
+                disabled
+              >
+                Button
+              </button>
+            </td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-text zui-btn-size-md"
+                disabled
+              >
+                Button
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Pill Button</td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-contained zui-btn-size-md zui-btn-pill"
+                disabled
+              >
+                Button
+              </button>
+            </td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-outlined zui-btn-size-md zui-btn-pill"
+                disabled
+              >
+                Button
+              </button>
+            </td>
+            <td>
+              <button
+                class="zui-btn zui-btn-primary-text zui-btn-size-md zui-btn-pill"
+                disabled
+              >
+                Button
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle" rowspan="2">Secondary</td>
+            <td class="align-middle" rowspan="2">Enabled</td>
+            <td class="align-middle">Default</td>
+            <td>
+              <button class="zui-btn zui-btn-secondary-contained">
+                Contained
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-secondary-outlined">
+                Outlined
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-secondary-text">Text</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Pill Button</td>
+            <td>
+              <button class="zui-btn zui-btn-secondary-contained zui-btn-pill">
+                Contained
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-secondary-outlined zui-btn-pill">
+                Outlined
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-secondary-text zui-btn-pill">
+                Text
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Success</td>
+            <td class="align-middle">Enabled</td>
+            <td class="align-middle">Default</td>
+            <td>
+              <button class="zui-btn zui-btn-success-contained">
+                Contained
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-success-outlined">Outlined</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-success-text">Text</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Error</td>
+            <td class="align-middle">Enabled</td>
+            <td class="align-middle">Default</td>
+            <td>
+              <button class="zui-btn zui-btn-error-contained">Contained</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-error-outlined">Outlined</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-error-text">Text</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Info</td>
+            <td class="align-middle">Enabled</td>
+            <td class="align-middle">Default</td>
+            <td>
+              <button class="zui-btn zui-btn-info-contained">Contained</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-info-outlined">Outlined</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-info-text">Text</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Warning</td>
+            <td class="align-middle">Enabled</td>
+            <td class="align-middle">Default</td>
+            <td>
+              <button class="zui-btn zui-btn-warning-contained">
+                Contained
+              </button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-warning-outlined">Outlined</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-warning-text">Text</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Light</td>
+            <td class="align-middle">Enabled</td>
+            <td class="align-middle">Default</td>
+            <td>
+              <button class="zui-btn zui-btn-light-contained">Contained</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-light-outlined">Outlined</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-light-text">Text</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">Dark</td>
+            <td class="align-middle">Enabled</td>
+            <td class="align-middle">Default</td>
+            <td>
+              <button class="zui-btn zui-btn-dark-contained">Contained</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-dark-outlined">Outlined</button>
+            </td>
+            <td>
+              <button class="zui-btn zui-btn-dark-text">Text</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h5 class="zui-header-5 text-center">Button Sizes</h5>
+      <div class="text-center">
+        <button class="zui-btn zui-btn-primary-contained zui-btn-size-sm">
+          Small Button
+        </button>
+        <button class="zui-btn zui-btn-error-contained">Medium Button</button>
+        <button class="zui-btn zui-btn-dark-contained zui-btn-size-lg">
+          Large Button
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
