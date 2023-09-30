@@ -1,0 +1,15 @@
+@import '../foundations/all';
+
+$sides: left, right, top, bottom;
+
+@each $space, $value in $spacing {
+  .zui-margin-#{$space} {
+    margin: $value;
+  }
+
+  @each $side in $sides {
+    .zui-margin-#{$side}-#{$space} {
+      margin-#{$side}: $value;
+    }
+  }
+}

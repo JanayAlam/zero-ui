@@ -12,13 +12,59 @@ CSS Library for Zero UI. Details of the styles and classes are described below.
 
 <!-- MarkdownTOC -->
 
-1. [Typography](#1-typography)
-2. [Button](#2-button)
+- **Atoms**
+  1. [Margin](#1-margin)
+  2. [Typography](#2-typography)
+  3. [Button](#3-button)
 
 <!-- /MarkdownTOC -->
 </details>
 
-## 1. Typography
+## 1. Margin
+
+Gives margin to child component. There are ten margin spaces available. These are- `none`, `xxxs`, `xxs`, `xs`, `sm`, `md`, `lg`, `xl`, `xxl`, `xxxl`. Besides that you can also define each of the dimension's margin separately. The class names are structured as- `zui-margin-{space}`. If you want to give margin in specific dimension then the class name structure is `zui-margin-{side}-{space}`.
+
+**Margin sizes:**
+
+| Space |    Class Name     |   rem   |  px  |
+| :---: | :---------------: | :-----: | :--: |
+| none  | `zui-margin-none` |    0    |  0   |
+| xxxs  | `zui-margin-xxxs` | 0.25rem | 4px  |
+|  xxs  | `zui-margin-xxs`  | 0.5rem  | 8px  |
+|  xs   |  `zui-margin-xs`  | 0.75rem | 12px |
+|  sm   |  `zui-margin-sm`  |  1rem   | 16px |
+|  md   |  `zui-margin-md`  | 1.5rem  | 24px |
+|  lg   |  `zui-margin-lg`  |  2rem   | 32px |
+|  xl   |  `zui-margin-xl`  |  3rem   | 48px |
+|  xxl  | `zui-margin-xxl`  | 4.5rem  | 72px |
+| xxxl  | `zui-margin-xxxl` |  6rem   | 96px |
+
+**Margin Side:**
+
+|  Side  |         Class Name         |             Description              |
+| :----: | :------------------------: | :----------------------------------: |
+|  Top   |  `zui-margin-{size}-top`   |  Apply margin only on the top side   |
+|  Left  |  `zui-margin-{size}-left`  |  Apply margin only on the left side  |
+| Right  | `zui-margin-{size}-right`  | Apply margin only on the right side  |
+| Bottom | `zui-margin-{size}-bottom` | Apply margin only on the bottom side |
+
+```html
+<!-- Small margin from every side -->
+<div class="zui-margin-sm">1rem margin from all sides</div>
+<!-- Extra large margin from every side -->
+<div class="zui-margin-xl">3rem margin from all sides</div>
+
+<!--  -->
+
+<!-- Medium margin from the left side only  -->
+<div class="zui-margin-md-left">1.5rem margin from the left side only</div>
+<!-- Medium margin from the left and right side only  -->
+<div class="zui-margin-md-left zui-margin-md-right">
+  1.5rem margin from the left side only
+</div>
+```
+
+## 2. Typography
 
 How to use the header, sub-header, body, caption, overline styles are described below.
 
@@ -26,7 +72,7 @@ How to use the header, sub-header, body, caption, overline styles are described 
 | :----------------------------------------------------: |
 |                  Fig.1 - Text Styles                   |
 
-### 1.1. Headers
+### 2.1. Headers
 
 Six types of headers are provided. Header 1, 2, 3, 4, 5, and 6. Class names for these classes are `zui-header-1`, `zui-header-2`, `zui-header-3`, `zui-header-4`, `zui-header-5`, and `zui-header-6` respectively. There are two more classes for sub headers. `zui-subheader-1` and `zui-subheader-2`. All of the styles are using **Century Gothic** font face.
 
@@ -43,7 +89,7 @@ Six types of headers are provided. Header 1, 2, 3, 4, 5, and 6. Class names for 
 <div class="zui-subheader-2">This is also a subheader - 0.875rem - 14px</div>
 ```
 
-### 1.2. Body
+### 2.2. Body
 
 Two types of body designs are available. Body 1 and body 2 styles can be achievable by the class names of `zui-body-1` and `zui-body-2` respectively. These two body styles uses **Inter** font face.
 
@@ -52,7 +98,7 @@ Two types of body designs are available. Body 1 and body 2 styles can be achieva
 <p class="zui-body-2">This is also a body paragraph text - 1.5rem - 24px</p>
 ```
 
-### 1.3. Caption and Overline Text
+### 2.3. Caption and Overline Text
 
 `zui-caption` and `zui-overline` are the two classes which are used for getting caption and overline styles. Caption uses **Century Gothic** and overline uses **Inter** font face.
 
@@ -61,11 +107,11 @@ Two types of body designs are available. Body 1 and body 2 styles can be achieva
 <p class="zui-overline">This is a overline text sample - 0.625rem - 10px</p>
 ```
 
-## 2. Button
+## 3. Button
 
 To use button component you must use `zui-btn` class. It will give the button a basic style. **Inter** font face is used on the button component. In addition the button component's has several properties. Like- size, color, variation, button's state, etc. Those are describe below with a demo output.
 
-### 2.1. Button Size
+### 3.1. Button Size
 
 Buttons come in three sizes: small, medium, and large. To achieve these sizes you must use `zui-btn-size-sm`, `zui-btn-size-md`, or `zui-btn-size-lg` class name.
 
@@ -82,7 +128,7 @@ Buttons come in three sizes: small, medium, and large. To achieve these sizes yo
 | :--------------------------------------------------------: |
 |                    Fig.2 - Button Size                     |
 
-### 2.2. Button Colors and Variations
+### 3.2. Button Colors and Variations
 
 There are eight colors in this design system. Two button types like default button and pill button and three variants like primary, secondary, etc. are available.
 
