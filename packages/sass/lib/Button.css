@@ -187,7 +187,6 @@
 =============================================*/
 /*=====  End of Mixins  ======*/
 .zui-btn {
-  background-color: transparent;
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   font-family: var(--zui-body-font-family, "Inter", "Roboto", sans-serif);
@@ -195,6 +194,7 @@
   border-radius: 0.25rem;
   cursor: pointer;
   box-sizing: border-box;
+  background-color: var(--zui-light-color, #f0f0f0);
 }
 .zui-btn:hover {
   background-color: var(--zui-light-hover-color, #e4e4e4);
@@ -242,6 +242,7 @@
 }
 
 .zui-btn-primary-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-primary-color, #0468db);
   color: var(--zui-primary-color, #0468db);
 }
@@ -273,6 +274,7 @@
 }
 
 .zui-btn-secondary-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-secondary-color, #e91e63);
   color: var(--zui-secondary-color, #e91e63);
 }
@@ -304,6 +306,7 @@
 }
 
 .zui-btn-success-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-success-color, #34db60);
   color: var(--zui-success-color, #34db60);
 }
@@ -335,6 +338,7 @@
 }
 
 .zui-btn-error-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-error-color, #d32f2f);
   color: var(--zui-error-color, #d32f2f);
 }
@@ -366,6 +370,7 @@
 }
 
 .zui-btn-info-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-info-color, #b1e2f4);
   color: var(--zui-dark-text-color, #000000);
 }
@@ -397,6 +402,7 @@
 }
 
 .zui-btn-warning-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-warning-color, #ffa726);
   color: var(--zui-warning-color, #ffa726);
 }
@@ -428,6 +434,7 @@
 }
 
 .zui-btn-dark-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-dark-color, #212121);
   color: var(--zui-dark-color, #212121);
 }
@@ -459,6 +466,7 @@
 }
 
 .zui-btn-light-outlined {
+  background-color: transparent;
   border: 1px solid var(--zui-light-color, #f0f0f0);
   color: var(--zui-dark-text-color, #000000);
 }

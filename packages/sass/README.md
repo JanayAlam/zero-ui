@@ -22,9 +22,9 @@ CSS Library for Zero UI. Details of the styles and classes are described below.
 
 How to use the header, sub-header, body, caption, overline styles are described below.
 
-![Text Styles](./.assets/typography.png 'Text Styles')
-
-<figcaption align="center">Fig.1 - Text Styles</figcaption>
+| ![Text Styles](./.assets/typography.png 'Text Styles') |
+| :----------------------------------------------------: |
+|                  Fig.1 - Text Styles                   |
 
 ### 1.1. Headers
 
@@ -63,6 +63,67 @@ Two types of body designs are available. Body 1 and body 2 styles can be achieva
 
 ## 2. Button
 
-![Button Styles](./.assets/buttons.png 'Button Styles')
+To use button component you must use `zui-btn` class. It will give the button a basic style. **Inter** font face is used on the button component. In addition the button component's has several properties. Like- size, color, variation, button's state, etc. Those are describe below with a demo output.
 
-<figcaption align="center">Fig.2 - Button Styles</figcaption>
+### 2.1. Button Size
+
+Buttons come in three sizes: small, medium, and large. To achieve these sizes you must use `zui-btn-size-sm`, `zui-btn-size-md`, or `zui-btn-size-lg` class name.
+
+```html
+<!-- Small Button -->
+<button class="zui-btn zui-btn-size-sm">Small Button</button>
+<!-- Medium Button -->
+<button class="zui-btn zui-btn-size-md">Medium Button</button>
+<!-- Large Button -->
+<button class="zui-btn zui-btn-size-lg">Large Button</button>
+```
+
+| ![Button Sizes](./.assets/button-sizes.png 'Button Sizes') |
+| :--------------------------------------------------------: |
+|                    Fig.2 - Button Size                     |
+
+### 2.2. Button Colors and Variations
+
+There are eight colors in this design system. Two button types like default button and pill button and three variants like primary, secondary, etc. are available.
+
+The class name structured as zui-btn-`{color name}`-`{variant name}`. For pill button `zui-btn-pill` class is required.
+
+The class names for each colors and variant is given below.
+
+- **Color**
+  - Primary: `zui-btn-primary-{variant name}`
+  - Secondary: `zui-btn-secondary-{variant name}`
+  - Success: `zui-btn-success-{variant name}`
+  - Error: `zui-btn-error-{variant name}`
+  - Info: `zui-btn-info-{variant name}`
+  - Warning: `zui-btn-warning-{variant name}`
+  - Light: `zui-btn-light-{variant name}`
+  - Dark: `zui-btn-dark-{variant name}`
+- **Variant**
+  - Contained: `zui-btn-{color name}-contained`
+  - Outlined: `zui-btn-{color name}-contained`
+  - Text: `zui-btn-{color name}-contained`
+- **Pill Button**
+  - Primary Pill Contained: `zui-btn` `zui-btn-primary-contained` **`zui-btn-pill`**
+  - Primary Pill Outlined: `zui-btn` `zui-btn-primary-outlined` **`zui-btn-pill`**
+  - Primary Pill Text: `zui-btn` `zui-btn-primary-text` **`zui-btn-pill`**
+
+```html
+<!-- Primary Contained Button -->
+<button class="zui-btn zui-btn-primary-contained">Button</button>
+<!-- Primary Outlined Button -->
+<button class="zui-btn zui-btn-outlined-contained">Button</button>
+<!-- Primary Text Button -->
+<button class="zui-btn zui-btn-text-contained">Button</button>
+
+<!--  -->
+
+<!-- Primary Text Pill Button -->
+<button class="zui-btn zui-btn-text-contained zui-btn-pill">Button</button>
+```
+
+Button styles are shown in the following figure.
+
+| ![Button Styles](./.assets/buttons.png 'Button Styles') |
+| :-----------------------------------------------------: |
+|                  Fig.3 - Button Styles                  |

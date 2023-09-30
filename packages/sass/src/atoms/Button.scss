@@ -1,7 +1,6 @@
 @import '../foundations/all';
 
 .zui-btn {
-  background-color: transparent;
   padding: map-get($spacing, xxs) map-get($spacing, md);
   font-size: map-get($fs-button, md);
   font-family: $body-font-family;
@@ -9,6 +8,7 @@
   border-radius: map-get($spacing, xxxs);
   cursor: pointer;
   box-sizing: border-box;
+  background-color: $light-color;
 
   &:hover {
     background-color: $light-hover-color;
@@ -87,6 +87,7 @@ $variations: primary secondary success error info warning dark light;
   }
 
   .zui-btn-#{$variation}-outlined {
+    background-color: transparent;
     border: 1px solid map-get($main-button-colors, $variation);
     @include text-color-of-outlined-button(
       $variation,
