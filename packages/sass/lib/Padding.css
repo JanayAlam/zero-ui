@@ -1,0 +1,387 @@
+/**
+ *
+ * The function and mixin were taken from
+ *    -> https://github.com/shailesh-ladumor/laravel-livewire-demo/blob/main/resources/css/fonts.scss
+ *
+ * Font Download Links:
+ *    [1] Century Gothic: https://freefontsfamily.com/century-gothic-font-family
+ *    [2] Inter: https://www.dafontfree.io/inter-font-family
+ *
+ * Conversions to web-font:
+ *    [1] Century Gothics: https://www.fontsquirrel.com/tools/webfont-generator
+ *    [2] Inter: https://transfonter.org
+ */
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CenturyGothic/century_gothic-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/century_gothic-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/CenturyGothic/gothicb-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothicb-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/CenturyGothic/gothici-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothici-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Century Gothic";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/CenturyGothic/gothicbi-webfont.woff2") format("woff2"), url("../fonts/CenturyGothic/gothicbi-webfont.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter/Inter-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter/Inter-Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter-MediumItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-MediumItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter/Inter-Bold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Italic.woff2") format("woff2"), url("../fonts/Inter/Inter-Italic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-BoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-BoldItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"), url("../fonts/Inter/Inter-Black.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Semi";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Semi";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-SemiBoldItalic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Extra";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter/Inter-ExtraBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Extra";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter-ExtraBoldItalic.woff") format("woff");
+  font-display: swap;
+}
+/**
+ *
+ * This file contains all defined variables
+ *
+ */
+/*=============================================
+=                 Font Family                 =
+=============================================*/
+/*=====       End of Font Family       ======*/
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=============================================
+=                 Font Sizes                  =
+=============================================*/
+/* 12px */
+/* 10px */
+/*=====       End of Font Sizes        ======*/
+/*=============================================
+=                Font Weights                 =
+=============================================*/
+/*=====      End of Font Weights       ======*/
+/*=============================================
+=                 Breakpoints                 =
+=============================================*/
+/*=====       End of Breakpoints       ======*/
+/*=============================================
+=                    Colors                   =
+=============================================*/
+/*===========    End of Colors   ============*/
+/*=============================================
+=                   Shadows                   =
+=============================================*/
+/*=====          End of Shadows        ======*/
+/**
+ *
+ * This file contains all classes for colors
+ *
+ */
+/*=============================================
+=                   Text Colors               =
+=============================================*/
+/*=====        End of Text Colors      ======*/
+/*=============================================
+=                   UI Colors                 =
+=============================================*/
+/*=====         End of UI Colors       ======*/
+/**
+ *
+ * This file contains all classes for typography
+ *
+ */
+/*============================================
+=         Header & Body Font Family          =
+============================================*/
+/*==== End of Header & Body Font Family ====*/
+/*============================================
+=         Header & Body Font Sizes           =
+============================================*/
+/*==== End of Header & Body Font Sizes  ====*/
+/**
+ *
+ * Helpful reuseable function-like things that will be used to implement styles for components.
+ *
+ */
+/*=============================================
+=                   Mixins                    =
+=============================================*/
+/*=====  End of Mixins  ======*/
+.zui-padding-none {
+  padding: 0;
+}
+
+.zui-padding-left-none {
+  padding-left: 0;
+}
+
+.zui-padding-right-none {
+  padding-right: 0;
+}
+
+.zui-padding-top-none {
+  padding-top: 0;
+}
+
+.zui-padding-bottom-none {
+  padding-bottom: 0;
+}
+
+.zui-padding-xxxs {
+  padding: 0.25rem;
+}
+
+.zui-padding-left-xxxs {
+  padding-left: 0.25rem;
+}
+
+.zui-padding-right-xxxs {
+  padding-right: 0.25rem;
+}
+
+.zui-padding-top-xxxs {
+  padding-top: 0.25rem;
+}
+
+.zui-padding-bottom-xxxs {
+  padding-bottom: 0.25rem;
+}
+
+.zui-padding-xxs {
+  padding: 0.5rem;
+}
+
+.zui-padding-left-xxs {
+  padding-left: 0.5rem;
+}
+
+.zui-padding-right-xxs {
+  padding-right: 0.5rem;
+}
+
+.zui-padding-top-xxs {
+  padding-top: 0.5rem;
+}
+
+.zui-padding-bottom-xxs {
+  padding-bottom: 0.5rem;
+}
+
+.zui-padding-xs {
+  padding: 0.75rem;
+}
+
+.zui-padding-left-xs {
+  padding-left: 0.75rem;
+}
+
+.zui-padding-right-xs {
+  padding-right: 0.75rem;
+}
+
+.zui-padding-top-xs {
+  padding-top: 0.75rem;
+}
+
+.zui-padding-bottom-xs {
+  padding-bottom: 0.75rem;
+}
+
+.zui-padding-sm {
+  padding: 1rem;
+}
+
+.zui-padding-left-sm {
+  padding-left: 1rem;
+}
+
+.zui-padding-right-sm {
+  padding-right: 1rem;
+}
+
+.zui-padding-top-sm {
+  padding-top: 1rem;
+}
+
+.zui-padding-bottom-sm {
+  padding-bottom: 1rem;
+}
+
+.zui-padding-md {
+  padding: 1.5rem;
+}
+
+.zui-padding-left-md {
+  padding-left: 1.5rem;
+}
+
+.zui-padding-right-md {
+  padding-right: 1.5rem;
+}
+
+.zui-padding-top-md {
+  padding-top: 1.5rem;
+}
+
+.zui-padding-bottom-md {
+  padding-bottom: 1.5rem;
+}
+
+.zui-padding-lg {
+  padding: 2rem;
+}
+
+.zui-padding-left-lg {
+  padding-left: 2rem;
+}
+
+.zui-padding-right-lg {
+  padding-right: 2rem;
+}
+
+.zui-padding-top-lg {
+  padding-top: 2rem;
+}
+
+.zui-padding-bottom-lg {
+  padding-bottom: 2rem;
+}
+
+.zui-padding-xl {
+  padding: 3rem;
+}
+
+.zui-padding-left-xl {
+  padding-left: 3rem;
+}
+
+.zui-padding-right-xl {
+  padding-right: 3rem;
+}
+
+.zui-padding-top-xl {
+  padding-top: 3rem;
+}
+
+.zui-padding-bottom-xl {
+  padding-bottom: 3rem;
+}
+
+.zui-padding-xxl {
+  padding: 4.5rem;
+}
+
+.zui-padding-left-xxl {
+  padding-left: 4.5rem;
+}
+
+.zui-padding-right-xxl {
+  padding-right: 4.5rem;
+}
+
+.zui-padding-top-xxl {
+  padding-top: 4.5rem;
+}
+
+.zui-padding-bottom-xxl {
+  padding-bottom: 4.5rem;
+}
+
+.zui-padding-xxxl {
+  padding: 6rem;
+}
+
+.zui-padding-left-xxxl {
+  padding-left: 6rem;
+}
+
+.zui-padding-right-xxxl {
+  padding-right: 6rem;
+}
+
+.zui-padding-top-xxxl {
+  padding-top: 6rem;
+}
+
+.zui-padding-bottom-xxxl {
+  padding-bottom: 6rem;
+}

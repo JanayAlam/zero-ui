@@ -1,0 +1,15 @@
+@import '../foundations/all';
+
+$sides: left, right, top, bottom;
+
+@each $space, $value in $spacing {
+  .zui-padding-#{$space} {
+    padding: $value;
+  }
+
+  @each $side in $sides {
+    .zui-padding-#{$side}-#{$space} {
+      padding-#{$side}: $value;
+    }
+  }
+}

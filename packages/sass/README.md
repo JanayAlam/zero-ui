@@ -13,46 +13,51 @@ CSS Library for Zero UI. Details of the styles and classes are described below.
 <!-- MarkdownTOC -->
 
 - **Atoms**
-  1. [Margin](#1-margin)
+  1. [Margin](#1-margin-and-padding)
   2. [Typography](#2-typography)
   3. [Button](#3-button)
 
 <!-- /MarkdownTOC -->
 </details>
 
-## 1. Margin
+## 1. Margin and Padding
 
-Gives margin to child component. There are ten margin spaces available. These are- `none`, `xxxs`, `xxs`, `xs`, `sm`, `md`, `lg`, `xl`, `xxl`, `xxxl`. Besides that you can also define each of the dimension's margin separately. The class names are structured as- `zui-margin-{space}`. If you want to give margin in specific dimension then the class name structure is `zui-margin-{side}-{space}`.
+Gives margin or padding to child component. There are ten margin/padding spaces available. These are- `none`, `xxxs`, `xxs`, `xs`, `sm`, `md`, `lg`, `xl`, `xxl`, `xxxl`. Besides that you can also define each of the dimension's margin/padding separately. The class names are structured as- `zui-margin-{space}` for margin and `zui-padding-{space}` for padding. If you want to give margin/padding in specific dimension then the class name structure is `zui-margin-{side}-{space}` for margin and `zui-padding-{side}-{space}` for padding.
 
-**Margin sizes:**
+**Margin/Padding sizes:**
 
-| Space |    Class Name     |   rem   |  px  |
-| :---: | :---------------: | :-----: | :--: |
-| none  | `zui-margin-none` |    0    |  0   |
-| xxxs  | `zui-margin-xxxs` | 0.25rem | 4px  |
-|  xxs  | `zui-margin-xxs`  | 0.5rem  | 8px  |
-|  xs   |  `zui-margin-xs`  | 0.75rem | 12px |
-|  sm   |  `zui-margin-sm`  |  1rem   | 16px |
-|  md   |  `zui-margin-md`  | 1.5rem  | 24px |
-|  lg   |  `zui-margin-lg`  |  2rem   | 32px |
-|  xl   |  `zui-margin-xl`  |  3rem   | 48px |
-|  xxl  | `zui-margin-xxl`  | 4.5rem  | 72px |
-| xxxl  | `zui-margin-xxxl` |  6rem   | 96px |
+| Space |               Class Name               | Size (rem) | Size (px) |
+| :---: | :------------------------------------: | :--------: | :-------: |
+| none  | `zui-margin-none` - `zui-padding-none` |     0      |     0     |
+| xxxs  | `zui-margin-xxxs` - `zui-padding-xxxs` |  0.25rem   |    4px    |
+|  xxs  |  `zui-margin-xxs` - `zui-padding-xxs`  |   0.5rem   |    8px    |
+|  xs   |   `zui-margin-xs` - `zui-padding-xs`   |  0.75rem   |   12px    |
+|  sm   |   `zui-margin-sm` - `zui-padding-sm`   |    1rem    |   16px    |
+|  md   |   `zui-margin-md` - `zui-padding-md`   |   1.5rem   |   24px    |
+|  lg   |   `zui-margin-lg` - `zui-padding-lg`   |    2rem    |   32px    |
+|  xl   |   `zui-margin-xl` - `zui-padding-xl`   |    3rem    |   48px    |
+|  xxl  |  `zui-margin-xxl` - `zui-padding-xxl`  |   4.5rem   |   72px    |
+| xxxl  | `zui-margin-xxxl` - `zui-padding-xxxl` |    6rem    |   96px    |
 
-**Margin Side:**
+**Margin/Padding Side:**
 
-|  Side  |         Class Name         |             Description              |
-| :----: | :------------------------: | :----------------------------------: |
-|  Top   |  `zui-margin-{size}-top`   |  Apply margin only on the top side   |
-|  Left  |  `zui-margin-{size}-left`  |  Apply margin only on the left side  |
-| Right  | `zui-margin-{size}-right`  | Apply margin only on the right side  |
-| Bottom | `zui-margin-{size}-bottom` | Apply margin only on the bottom side |
+|  Side  |                        Class Name                        |                 Description                  |
+| :----: | :------------------------------------------------------: | :------------------------------------------: |
+|  Top   |    `zui-margin-{size}-top` - `zui-padding-{size}-top`    |  Apply margin/padding only on the top side   |
+|  Left  |   `zui-margin-{size}-left` - `zui-padding-{size}-left`   |  Apply margin/padding only on the left side  |
+| Right  |  `zui-margin-{size}-right` - `zui-padding-{size}-right`  | Apply margin/padding only on the right side  |
+| Bottom | `zui-margin-{size}-bottom` - `zui-padding-{size}-bottom` | Apply margin/padding only on the bottom side |
 
 ```html
 <!-- Small margin from every side -->
 <div class="zui-margin-sm">1rem margin from all sides</div>
 <!-- Extra large margin from every side -->
 <div class="zui-margin-xl">3rem margin from all sides</div>
+
+<!-- Small padding from every side -->
+<div class="zui-padding-sm">1rem padding from all sides</div>
+<!-- Extra large padding from every side -->
+<div class="zui-padding-xl">3rem padding from all sides</div>
 
 <!--  -->
 
@@ -61,6 +66,12 @@ Gives margin to child component. There are ten margin spaces available. These ar
 <!-- Medium margin from the left and right side only  -->
 <div class="zui-margin-md-left zui-margin-md-right">
   1.5rem margin from the left side only
+</div>
+<!-- Large padding from the left side only  -->
+<div class="zui-padding-lg-left">2rem padding from the left side only</div>
+<!-- Medium padding from the left and right side only  -->
+<div class="zui-padding-lg-left zui-padding-lg-right">
+  2rem padding from the left side only
 </div>
 ```
 
