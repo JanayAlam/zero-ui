@@ -22,7 +22,17 @@ const compile = (src, dest) => {
  */
 const getComponents = () => {
   let allComponents = [];
-  const types = ['atoms', 'molecules', 'organisms'];
+
+  // reads all the directories that contains components except foundations, base, and scripts
+  const types = fs.readdirSync('src').filter((type) => {
+    const isDirectory = fs.statSync(`src/${type}`).isDirectory();
+    return (
+      isDirectory &&
+      type !== 'foundations' &&
+      type !== 'base' &&
+      type !== 'scripts'
+    );
+  });
 
   types.forEach((type) => {
     const allFiles = fs.readdirSync(`src/${type}`).map((file) => ({

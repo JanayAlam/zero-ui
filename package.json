@@ -6,7 +6,8 @@
   "author": "Md. Janay Alam <janayalam.work@gmail.com>",
   "scripts": {
     "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev"
+    "dev": "yarn lerna run dev",
+    "lint:check": "yarn lerna run lint:check"
   },
   "license": "MIT",
   "workspaces": [

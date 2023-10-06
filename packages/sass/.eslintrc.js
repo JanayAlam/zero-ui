@@ -22,5 +22,6 @@ module.exports = {
   rules: {
     'no-console': 'warn',
     'linebreak-style': 0,
+    'operator-linebreak': 'off',
   },
 };
